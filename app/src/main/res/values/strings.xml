@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">My Inventory App</string>
+    <!-- Message with instructions on how to populate the database-->
+    <string name="empty_view_message">To insert a product into the database, please tap the plus button.</string>
+    <!-- Product Name tools:text -->
+    <string name="product_name_tools">Product Name</string>
+   <!-- Quantity Text of a product -->
+    <string name="quantity_text">Quantity:</string>
+    <!-- Quantity of Product tools:text-->
+    <string name="quantity_tools_value">8</string>
+    <!-- Price Text -->
+    <string name="price_text">Price:&#032;</string>
+    <!-- Price of Product tools:text-->
+    <string name="price_tools_value">145</string>
+    <!-- Local Currency [CHAR LIMIT=3] Now it is euro-->
+    <string name="local_currency">$</string>
+    <!-- Sale Button Text -->
+    <string name="sale_text">Sale</string>
+    <!-- Label for detail overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert dummy data</string>
+    <!-- Label for overflow menu option that deletes all product data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+    <!-- All products deleted message -->
+    <string name="all_products_deleted">All products was successfully deleted!</string>
+    <!-- Failed to delete all products message -->
+    <string name="failed_deleting_all_products">Failed to delete all products!</string>
+    <!-- Delete all product Dialog message -->
+    <string name="delete_all_product_dialog_message">Do you want to delete all products?</string>
+    <!-- Delete button title -->
+    <string name="delete">Delete</string>
+    <!-- Cancel button title -->
+    <string name="cancel">Cancel</string>
+    <!-- Out of stock message for product that has 0 quantity on "Sale" click-->
+    <string name="out_of_stock">This product is out of stock!</string>
+    <!-- Label for detail (editor) menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+    <!-- Label for detail activity when new product is inserting  -->
+    <string name="detail_activity_title_new_product">New Product</string>
+    <!-- Label for detail activity when existing product is updating  -->
+    <string name="detail_activity_title_edit_product">Edit Product</string>
+    <!-- Label for Product Name [CHAR LIMIT=15]-->
+    <string name="product_name_label">Product Name :</string>
+    <!-- Hint in the EditText for product name -->
+    <string name="enter_product_name_hint">Enter Product Name</string>
+    <!-- Label for Price [CHAR LIMIT=10]-->
+    <string name="price_label">Price :</string>
+    <!-- Hint in the EditText for price [CHAR LIMIT=20]-->
+    <string name="enter_product_price_hint">Enter Price</string>
+    <!-- Label for Available Quantity [CHAR LIMIT=20]-->
+    <string name="available_quantity">Available Quantity</string>
+    <!-- Label for Restock Options -->
+    <string name="restock_options">Restock Options</string>
+    <!-- Label for supplier's name -->
+    <string name="suppliers_name_label">Supplier :</string>
+    <!-- Hint for edit suppliers name -->
+    <string name="suppliers_name_hint">Enter Supplier</string>
+    <!-- Label for supplier's email -->
+    <string name="suppliers_email_label">Supplier\'s E-mail :</string>
+    <!-- Hint for edit suppliers e-mail -->
+    <string name="suppliers_email_hint">Enter e-mail</string>
+    <!-- Label for restock Quantity -->
+    <string name="restock_quantity_label">Restock Quantity :</string>
+    <!-- Hint for edit suppliers e-mail -->
+    <string name="restock_quantity_hint">0</string>
+    <!-- Title for Restock Button -->
+    <string name="restock_button_title">Order Now</string>
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+    <!-- Message displayed on gallery browsing intent -->
+    <string name="select_photo">Select Photo</string>
+    <!-- Message when saving a new product fails -->
+    <string name="save_product_failed">Product saving failed!</string>
+    <!-- Message when saving a new product is successful  -->
+    <string name="save_product_successful">Product saved!</string>+
+    <!-- Message when updating a product fails -->
+    <string name="update_product_failed">Product update failed!</string>
+    <!-- Message when updating a product is successful  -->
+    <string name="update_product_successful">Product updated!</string>
+    <!-- Message for empty product -->
+    <string name="enter_product_name">Please enter product name!</string>
+    <!-- Message for empty price -->
+    <string name="enter_product_price">Please enter the price of the product!</string>
+    <!-- Message for negative price -->
+    <string name="enter_positive_product_price">Please enter a positive value for the price!</string>
+    <!-- Message for empty quantity -->
+    <string name="enter_product_quantity">Please enter the quantity of the product!</string>
+    <!-- Message for negative quantity -->
+    <string name="enter_positive_product_quantity">Please enter positive value for the product\'s quantity!</string>
+    <!-- Message for missing photo of the product -->
+    <string name="enter_product_photo">Please choose a photo for the product!</string>
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <!-- Toast message in detail view when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="detail_delete_product_successful">Product deleted</string>
+    <!-- Toast message in detail view when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="detail_delete_product_failed">Error with deleting product</string>
+    <!-- Toast message when restocking a completely new product -->
+    <string name="restocking_new_product">You cannot restock a new product!</string>
+    <!-- Toast message for empty supplier name when restocking product -->
+    <string name="enter_supplier_name">Please enter supplier name</string>
+    <!-- Toast message for empty supplier e-mail when restocking product -->
+    <string name="enter_supplier_email">Please enter supplier\'s e-mail</string>
+    <!-- Toast message for invalid format of supplier's e-mail when restocking product -->
+    <string name="invalid_supplier_email">Supplier\'s e-mail is not a valid format! Please edit that field.</string>
+    <!-- Toast message for empty restock quantity -->
+    <string name="enter_restock_quantity">Please enter restock quantity</string>
+    <!-- Toast message for negative restock quantity -->
+    <string name="enter_positive_restock_quantity">Enter positive value for restock quantity</string>
+    <!-- Ordering -->
+    <string name="ordering">Ordering</string>
+    <!-- Greeting to the supplier in the restock message -->
+    <string name="hello">Hello</string>
+    <!-- "I would like to order" message in the restock message -->
+    <string name="i_would_like_to_order">I would like to order</string>
+    <!-- Units restock quantity is measured in -->
+    <string name="restock_quantity_measurement_units">pieces of</string>
+</resources>
